@@ -28,8 +28,6 @@ project = 'Content Delivery Network (Akamai)'
 otcdocs_repo_name = 'opentelekomcloud-docs/content-delivery-network'
 # Those variables are required for edit/bug links
 
-
-
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -93,7 +91,7 @@ html_static_path = ['_static']
 
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
-('index',
+    ('index',
      'cdn-umn.tex',
      u'Content Delivery Network (Akamai) - User Guide',
      u'OpenTelekomCloud', 'manual'),
